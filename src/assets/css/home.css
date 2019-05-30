@@ -1,0 +1,606 @@
+body {
+  background-color: #9ba7b338;
+}
+
+#home h1, #home h2, #home h3 {
+  margin-top: 0px;
+  color: aliceblue;
+}
+
+html, body, #app, #home, .content, .row, .column, .c1, .c2, .c3 {
+height: 100%;
+}
+
+body {
+margin: 0;
+}
+
+#home h1 {
+font-weight: 700;
+}
+
+#home {
+cursor: pointer;
+}
+
+.column {
+float: left;
+width: 33.33%; 
+}
+
+.c1 {
+background-image: url("~@/assets/clothes.jpg");
+background-repeat: no-repeat;
+height: 100%;
+background-position: center;
+background-size: cover;
+}
+
+.c1:hover {
+background-color:#6A79DD;
+background-image: linear-gradient(#6A79DD, #9DA4D0);
+}
+
+.c2 {
+background-image: url("~@/assets/sewing.jpg");
+background-repeat: no-repeat;
+height: 100%;
+background-position: center;
+background-size: cover;
+}
+
+.c2:hover {
+background-color:#6A79DD;
+background-image: linear-gradient(#6A79DD, #9DA4D0);
+}
+
+.c3 {
+background-image: url("~@/assets/chart.jpg");
+background-repeat: no-repeat;
+height: 100%;
+background-position: center;
+background-size: cover;
+}
+
+.c3:hover {
+background-color:#6A79DD;
+background-image: linear-gradient(#6A79DD, #9DA4D0);
+}
+
+.c-header {
+position: relative;
+top: 40%;   
+}
+
+.c-sub-title {
+position: relative;
+top: 40%;   
+}
+
+.c-title {
+position: relative;
+top: 40%;   
+}
+
+h1 {
+z-index: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+#home {
+font-family: 'Avenir', Helvetica, Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-align: center;
+color: #2c3e50;
+}
+
+h1, h2 {
+font-weight: normal;
+}
+
+.page .navbar {
+  background-color: #6A79DD;
+  color: white;
+}
+
+.page .nav.navbar-right > li > a {
+  background-color: #6A79DD;
+}
+
+.page .logo {
+  margin-top: 5px;
+}
+
+.page .welcome-message {
+  color: white;
+}
+
+.page .label {
+  color: white;
+}
+
+.page .nav.navbar-right > li > a {
+  color: white;
+}
+.page ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: 6A79DD;
+  opacity: 1; /* Firefox */
+}
+
+.page .search {
+  min-width: 400px;
+  background-color: white;
+  color: #6A79DD;
+  margin-left: 25px;
+}
+
+.page .search-input {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  height: 42px;
+  margin-top: 7px;
+}
+
+.page .content {
+  padding: 20px;
+}
+
+.footer.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 10px 20px;
+  background: #fff;
+  border-top: 1px solid #e7eaec;
+  margin-left: 0;
+}
+
+/* Important part */
+.page .modal-dialog{
+  overflow-y: initial !important
+}
+
+.page .invite-supplier .modal-body {
+  height: 335px;
+  overflow-y: auto;
+}
+
+.page .modal-body{
+  height: 500px;
+  overflow-y: auto;
+}
+
+.page .order-style {
+  cursor: pointer;
+}
+
+.page .fa.check-icon-lg {
+      font-size: 16px;
+  margin-top: 1px;
+  cursor: pointer;
+  }
+
+  .page i.fa.check-icon-lg.fa-square-o {
+      margin-right: 10.76px;
+  }
+
+  .page i.fa.check-icon-lg.fa-check-square-o {
+      margin-right: 8px;
+}
+
+.page .filter-icon {
+  color: #6A79DD;
+  margin-left: 15px;
+  margin-right: 3px;
+}
+
+.page .sub-filter {
+  margin-left: 30px;
+}
+
+.page .colored-icon {
+  color: #6A79DD;
+}
+
+.page .uncolored-icon {
+  color: white;
+}
+
+.page .inline {
+  display: flex;
+}
+
+.page .modal{
+    display: block !important; /* I added this to see the modal, you don't need this */
+}
+
+/* Important part */
+.page .modal-dialog{
+  overflow-y: initial !important
+}
+
+.page .modal-body{
+  height: 500px;
+  overflow-y: auto;
+}
+
+.page .order-style {
+  cursor: pointer;
+}
+
+.orders .fa-circle {
+  color: #6A79DD;
+}
+  
+.page .environmental1 {
+  background-color: #6A79DD;
+  color: #6A79DD;
+}
+
+.page .environmental2 {
+  background-color: #D28F63;
+  color: #D28F63;
+}
+
+.dropdown-menu > li > a {
+  color: #2f4050;
+}
+
+.modal {
+  display: block;
+}
+
+.close {
+  -webkit-appearance: none !important;
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+      width: 70%;
+      max-width: 1900px;
+  }
+
+  .modal-xxl {
+      width: 90%;
+      max-width: 1900px;
+  }
+}
+
+.orders .fa.check-icon-lg {
+  font-size: 16px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.orders i.fa.check-icon-lg.fa-square-o {
+  margin-right: 10.76px;
+}
+
+.orders i.fa.check-icon-lg.fa-check-square-o {
+  margin-right: 8px;
+}
+
+.orders .filter-icon {
+  color: #6A79DD;
+  margin-left: 15px;
+  margin-right: 3px;
+}
+
+.orders .sub-filter {
+  margin-left: 30px;
+}
+
+.orders .colored-icon {
+  color: #6A79DD;
+}
+
+.orders .uncolored-icon {
+  color: white;
+}
+
+.orders .inline {
+  display: flex;
+}
+
+.orders .modal{
+  display: block !important; /* I added this to see the modal, you don't need this */
+}
+
+/* Important part */
+.orders .modal-dialog{
+  overflow-y: initial !important
+}
+
+.orders .modal-body{
+height: 500px;
+overflow-y: auto;
+}
+
+.orders .order-style {
+cursor: pointer;
+}
+
+.orders .fa-circle {
+color: #6A79DD;
+}
+
+.v-wizard {    
+background-color: #fff !important;
+border-radius: 6px;
+padding: 20px;
+margin: 15px;
+margin-bottom: 0px;
+}
+
+.v-wizard .step-indicator {
+border-collapse: separate;
+display: table;
+position: relative;
+table-layout: fixed;
+text-align: center;
+vertical-align: middle;
+padding: 0px;
+margin: 0px;
+}
+
+.v-wizard .step-indicator li {
+display: table-cell;
+position: relative;
+float: none;
+padding: 0;
+width: 1%;
+}
+
+.v-wizard .step-indicator li:after {
+content: "";
+display: block;
+height: 1px;
+position: absolute;
+width: 100%;
+top: 32px;
+}
+
+.v-wizard .step-indicator li:after {
+left: 50%;
+}
+
+.v-wizard .step-indicator li:last-child:after {
+display: none;
+}
+
+.v-wizard .step-indicator li.active .step {
+border-color: #1c84c6;
+color: #1c84c6;
+}
+
+.v-wizard .step-indicator li.active .caption {
+color: #1c84c6;
+}
+
+.v-wizard .step-indicator li.complete:after {
+background-color: #1ab394;
+}
+
+.v-wizard .step-indicator li.complete .step {
+border-color: #1ab394;
+color: #1ab394;
+}
+
+.v-wizard .step-indicator li.complete .caption {
+color: #1ab394;
+}
+
+.v-wizard .step-indicator .step {
+background-color: #fff;
+border-radius: 50%;
+border: 1px solid #ccc;
+color: #ccc;
+font-size: 24px;
+height: 64px;
+line-height: 64px;
+margin: 0 auto;
+position: relative;
+width: 64px;
+z-index: 1;
+}
+
+.v-wizard .step-indicator li.error:after {
+background-color: #ed5565;
+}
+
+.v-wizard .step-indicator li.error .step {
+border-color: #ed5565;
+color: #ed5565;
+}
+
+.v-wizard .step-indicator li.error .caption {
+color: #ed5565;
+}
+
+.v-wizard .step-indicator .step:hover {
+cursor: pointer;
+}
+
+.v-wizard .step-indicator .caption {
+color: #ccc;
+padding: 11px 16px;
+}
+
+.v-wizard .content {
+padding: 20px 0px;
+border: 1px dashed #c6c6c6;
+border-left: none;
+border-right: none;
+margin: 20px 0px;
+}
+
+.v-wizard.single-step .content {
+border-top: none;
+margin-top: 0px;
+padding-top: 0px;
+}
+
+.v-wizard .navigation {
+text-align: center;
+}
+
+.v-wizard .selected-step .step {
+color: #6A79DD;
+border-color: #6A79DD;
+}
+
+.v-wizard .unselected-step .step {
+color: #ccc;
+border-color: #ccc;
+}
+
+.ibox-title {
+border-style: solid solid solid;
+border-width: 2px 0px 2px;
+}
+
+.orders .progress-bar {
+background-color: #6A79DD;
+}
+
+.orders .environmental1 {
+background-color: #6A79DD;
+color: #6A79DD;
+}
+
+.orders .environmental2 {
+background-color: #D28F63;
+color: #D28F63;
+}
+
+.order-details .order-details-content {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.order-details .order-title {
+  color: #6A79DD;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.order-details .order-title h2 {
+  color: #6A79DD;
+}
+
+.order-details .show-more {
+  width: 175px;
+  margin: auto;
+  background-color: #6A79DD;
+  border-color: #6A79DD;
+  color: white;
+}
+
+.order-details .show-more:active:focus {
+  color: white;
+  background-color: #6A79DD; 
+  border-color: #6A79DD;
+}
+
+.order-details .environmental1 {
+  background-color: #6A79DD;
+  color: white;
+}
+
+.order-details .environmental2 {
+  background-color: #D28F63;
+  color: white;
+}
+
+.order-details .supplier {
+  align-items: center;
+  justify-content: center;
+}
+
+.invite-supplier .modal-body {
+  height: 335px !important;
+  overflow-y: scroll;
+}
+
+.suppliers .fa.check-icon-lg {
+        font-size: 16px;
+		margin-top: 1px;
+		cursor: pointer;
+    }
+
+    .suppliers i.fa.check-icon-lg.fa-square-o {
+        margin-right: 10.76px;
+    }
+
+    .suppliers i.fa.check-icon-lg.fa-check-square-o {
+        margin-right: 8px;
+	}
+	
+	.suppliers .filter-icon {
+		color: #6A79DD;
+		margin-left: 15px;
+		margin-right: 3px;
+	}
+
+	.suppliers .sub-filter {
+		margin-left: 30px;
+	}
+
+	.suppliers .colored-icon {
+		color: #6A79DD;
+	}
+
+	.suppliers .uncolored-icon {
+		color: white;
+	}
+
+	.suppliers .inline {
+		display: flex;
+	}
+
+	.suppliers .modal{
+    	display: block !important; /* I added this to see the modal, you don't need this */
+	}
+
+	/* Important part */
+	.suppliers .modal-dialog{
+		overflow-y: initial !important
+	}
+
+	.suppliers .supplier-style {
+		cursor: pointer;
+	}
+
+	.suppliers .fa-circle {
+		color: #6A79DD;
+	}
+		
+	.suppliers .environmental1 {
+		background-color: #6A79DD;
+		color: #6A79DD;
+	}
+
+	.suppliers .environmental2 {
+		background-color: #D28F63;
+		color: #D28F63;
+  }
+  
+  .btn-primary {
+    background-color: #6A79DD;
+    border-color: #6A79DD;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6172e1;
+    border-color: #6172e1;
+  }
