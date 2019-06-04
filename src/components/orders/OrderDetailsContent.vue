@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-4">
         <div class="contact-box">
           <a class="row">
@@ -105,7 +105,7 @@
       </div>
     </div>
 
-    <hr>
+    <hr> -->
 
     <div class="row m-t-lg">
       <div v-if="pickBest">
