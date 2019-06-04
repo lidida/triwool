@@ -207,17 +207,9 @@
 								</div>
 								<div v-if="selectedTab.slug == 'certificates'" class="form-horizontal m-l-md">
 									<div class="row">
-										<div class="contact-box">
-											<a class="row">
-												<div class="col-4">
-													<div class="text-center">
-														<h3>Client Benneton - 2017</h3>
-														<br>
-														<h3>Order # 10000045</h3>
-														<br>
-													</div>
-												</div>
-											</a>
+										<div class="col-lg-6">
+											<h5>Client: Benneton - 2018</h5>
+											<h5>Order # 10000045</h5>
 										</div>
 									</div>
 									<div class="row">
@@ -237,8 +229,8 @@
 																<div class="text-center">
 																	<img
 																		alt="image"
-																		class="rounded-circle m-t-xs img-fluid"
-																		height="100"
+																		class="m-t-xs img-fluid"
+																		height="80"
 																		:src="require('@/assets/route.png')">
 																	<div class="m-t-xs font-bold"><a>Route map</a></div>
 																</div>
@@ -248,8 +240,8 @@
 																<div class="text-center">
 																	<img
 																		alt="image"
-																		class="rounded-circle m-t-xs img-fluid"
-																		height="100"
+																		class="m-t-xs img-fluid"
+																		height="80"
 																		:src="require('@/assets/certificates.png')">
 																	<div class="m-t-xs font-bold"><a>Certificates</a></div>
 																</div>
@@ -261,8 +253,8 @@
 																<div class="text-center">
 																	<img
 																		alt="image"
-																		class="rounded-circle m-t-xs img-fluid"
-																		height="100"
+																		class="m-t-xs img-fluid"
+																		height="80"
 																		:src="require('@/assets/recyclability.png')">
 																	<div class="m-t-xs font-bold"><a>Material</a></div>
 																</div>
@@ -272,8 +264,8 @@
 																<div class="text-center">
 																	<img
 																		alt="image"
-																		class="rounded-circle m-t-xs img-fluid"
-																		height="100"
+																		class=" m-t-xs img-fluid"
+																		height="80"
 																		:src="require('@/assets/water.png')">
 																	<div class="m-t-xs font-bold"><a>Enviroment</a></div>
 																</div>
@@ -288,25 +280,25 @@
 														</div>
 														<a class="row">
 															<div class="col-lg-6"
-																@click="openChart('Waste', 'waste')">
-																<div class="text-center">
-																	<img
-																		alt="image"
-																		class="rounded-circle m-t-xs img-fluid"
-																		height="100"
-																		:src="require('@/assets/recyclability.png')">
-																	<div class="m-t-xs font-bold"><a>Waste</a></div>
-																</div>
-															</div>
-															<div class="col-lg-6"
 																@click="openChart('Wear', 'wear')">
 																<div class="text-center">
 																	<img
 																		alt="image"
-																		class="rounded-circle m-t-xs img-fluid"
-																		height="100"
+																		class=" m-t-xs img-fluid"
+																		height="80"
 																		:src="require('@/assets/recyclability.png')">
 																	<div class="m-t-xs font-bold"><a>Wear</a></div>
+																</div>
+															</div>
+															<div class="col-lg-6"
+																@click="openChart('Waste', 'waste')">
+																<div class="text-center">
+																	<img
+																		alt="image"
+																		class=" m-t-xs img-fluid"
+																		height="80"
+																		:src="require('@/assets/recyclability.png')">
+																	<div class="m-t-xs font-bold"><a>Waste</a></div>
 																</div>
 															</div>
 														</a>
