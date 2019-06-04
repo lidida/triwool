@@ -73,28 +73,12 @@
         <div class="contact-box">
           <a class="row">
             <div class="col-4">
-              <div class="text-center">
-                <img
-                  alt="image"
-                  class="rounded-circle m-t-xs img-fluid"
-                  height="100"
-                  src="@/assets/orderd3.png"
-                >
-                <div class="m-t-xs font-bold">Recycling</div>
-              </div>
-            </div>
-            <div class="col-8" style="text-align: center;">
-              <span class="badge badge-default m-t-sm m-b-sm">
-                <strong>
-                  <a>Know more</a>
-                </strong>
-              </span>
+              <div class="text-center"></div>
             </div>
           </a>
           <div class="contact-box-footer">
             <div class="m-t-xs btn-group">
               <span class="badge badge-primary m-t-sm m-b-sm">
-                <strong v-if="selectedChart == 1">300 units</strong>
                 <strong v-if="selectedChart == 2">400 units</strong>
                 <strong v-if="selectedChart == 3">175 units</strong>
                 <strong v-if="selectedChart == 4">113 units</strong>
@@ -179,31 +163,24 @@
     <div class="row">
       <div class="ibox">
         <div class="ibox-title">
-          <h5>Overview</h5>
+          <h5>Improvement difference</h5>
         </div>
         <div class="ibox-content">
           <div class="col-lg-12">
             <div class="col-md-12">
               <ul class="stat-list m-t-lg">
                 <li>
-                  <h2 class="no-margins">593 Litres</h2>
+                  <h2 class="no-margins">130,500 Litres</h2>
                   <small>Water</small>
                   <div class="progress progress-mini">
                     <div class="progress-bar" style="width: 70%;"></div>
                   </div>
                 </li>
                 <li>
-                  <h2 class="no-margins">425 Kg CO2-e</h2>
+                  <h2 class="no-margins">365 Kg CO2-e</h2>
                   <small>CO2</small>
                   <div class="progress progress-mini">
                     <div class="progress-bar" style="width: 50%;"></div>
-                  </div>
-                </li>
-                <li>
-                  <h2 class="no-margins">324 Units</h2>
-                  <small>Recycling</small>
-                  <div class="progress progress-mini">
-                    <div class="progress-bar" style="width: 30%;"></div>
                   </div>
                 </li>
               </ul>
