@@ -215,7 +215,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>-->
       </div>
 
       <div class="row">
@@ -267,6 +267,22 @@
                         <td class="text-center small">12 May 2019</td>
                         <td class="text-center">
                           <span class="label label-warning">$5,725.00</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">4</td>
+                        <td>137800162 (Dresses)</td>
+                        <td class="text-center small">09 May 2019</td>
+                        <td class="text-center">
+                          <span class="label label-warning">$7,725.00</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">5</td>
+                        <td>248701592 (Dresses)</td>
+                        <td class="text-center small">04 Apr 2019</td>
+                        <td class="text-center">
+                          <span class="label label-warning">$25,000.00</span>
                         </td>
                       </tr>
                     </tbody>
@@ -2265,7 +2281,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>-->
       </div>
     </div>
   </div>
