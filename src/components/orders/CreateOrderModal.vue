@@ -381,7 +381,7 @@
 													<td>
 														<a
 															@click="goToSupplier(1001)">
-															Tearfill
+															Tearfil
 														</a>
 													</td>
 													<td class="project-completion">
@@ -691,7 +691,7 @@ export default {
 
 			steps: [
 				{
-					title: 'Raw Material',
+					title: 'Raw material',
 					icon: 'fa fa-tint',
 					logo: 'thread-spool-02'
 				},
@@ -808,7 +808,7 @@ export default {
 			selectedCertificatesPreview: [
 				{
 					logo: 'cert1',
-					expirityDate: '22/05/2019',
+					expirityDate: '08/07/2019',
 					class: 'btn-warning',
 					status: 'Should update soon',
 					statusClass: 'badge badge-danger'
@@ -830,7 +830,7 @@ export default {
 			],
 
 			pick1Data: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Garment'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
 						label: 'Total:',
@@ -856,7 +856,7 @@ export default {
 			},
 
 			pick2Data: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Garment'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
 						label: 'Total:',
@@ -882,7 +882,7 @@ export default {
 			},
 
 			environmentalData: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Garment'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
 						label: 'Total:',
@@ -934,7 +934,7 @@ export default {
 			},
 
 			environmentalData2: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Dying and Finishing', 'Manufacturing'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Dying and Finishing', 'Manufacturing'],
 				datasets: [
 					{
 						label: 'Total de compras',

@@ -568,7 +568,7 @@ export default {
 			chartSlug: '',
 
 			environmentalData: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Garment'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
 						label: 'Water',

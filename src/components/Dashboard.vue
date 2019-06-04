@@ -119,7 +119,7 @@
           <div class="ibox">
             <div class="ibox-content" style="heigth: 300px;">
               <div>
-                <h3 class="font-bold no-margins">Half year revenue margin</h3>
+                <h3 class="font-bold no-margins">Gross profit margin</h3>
               </div>
 
               <div class="m-t-sm">
@@ -151,7 +151,7 @@
               <div class="m-t-md">
                 <small class="float-right">
                   <i class="fa fa-clock-o"></i>
-                  Update on 16.07.2015
+                  Updated on 08.06.2019
                 </small>
               </div>
             </div>
@@ -247,26 +247,26 @@
                     <tbody>
                       <tr>
                         <td class="text-center">1</td>
-                        <td>T-shirts</td>
-                        <td class="text-center small">16 Jun 2014</td>
+                        <td>137800163 (T-shirts)</td>
+                        <td class="text-center small">03 Jun 2019</td>
                         <td class="text-center">
-                          <span class="label label-primary">$483.00</span>
+                          <span class="label label-primary">$10,483.00</span>
                         </td>
                       </tr>
                       <tr>
                         <td class="text-center">2</td>
-                        <td>Dresses</td>
-                        <td class="text-center small">10 Jun 2014</td>
+                        <td>137800164 (Dresses)</td>
+                        <td class="text-center small">25 May 2019</td>
                         <td class="text-center">
-                          <span class="label label-primary">$327.00</span>
+                          <span class="label label-primary">$12,327.00</span>
                         </td>
                       </tr>
                       <tr>
                         <td class="text-center">3</td>
-                        <td>Shorts</td>
-                        <td class="text-center small">12 Jun 2014</td>
+                        <td>137800163 (Shorts)</td>
+                        <td class="text-center small">12 May 2019</td>
                         <td class="text-center">
-                          <span class="label label-warning">$125.00</span>
+                          <span class="label label-warning">$5,725.00</span>
                         </td>
                       </tr>
                     </tbody>

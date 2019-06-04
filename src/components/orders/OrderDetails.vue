@@ -305,7 +305,7 @@ export default {
 			certificates: [
 				{
 					logo: 'cert1',
-					expirityDate: '22/05/2019',
+					expirityDate: '08/07/2019',
 					class: 'btn-warning',
 					status: 'Should update soon',
 					statusClass: 'badge badge-danger'
@@ -327,7 +327,7 @@ export default {
 			],
 
 			pick1Data: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Garment'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
 						label: 'Water',
@@ -357,7 +357,7 @@ export default {
 			},
 
 			pick2Data: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Garment'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
 						label: 'Water',
@@ -383,7 +383,7 @@ export default {
 			},
 
 			environmentalData: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Garment'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
 						label: 'Water',

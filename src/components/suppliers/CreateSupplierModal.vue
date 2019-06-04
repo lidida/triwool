@@ -109,7 +109,7 @@
 											<span class="col-sm-4 col-form-label m-t-sm">Stage of production</span>
 											<div class="col-sm-8">
 												<select class="form-control m-b" name="account">
-													<option>Raw Material</option>
+													<option>Raw material</option>
 													<option>Yarn</option>
 													<option>Fabric</option>
 													<option>Dying and Finishing</option>
@@ -383,7 +383,7 @@ export default {
 			selectedCertificates: [
 				{
 					logo: 'cert1',
-					expirityDate: '22/05/2019',
+					expirityDate: '08/07/2019',
 					class: 'btn-warning',
 					status: 'Should update soon',
 					statusClass: 'badge badge-danger'
@@ -405,7 +405,7 @@ export default {
 			],
 
 			environmentalData: {
-				labels: ['Row Material', 'Yarn', 'Fabric', 'Garment'],
+				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
 						label: 'Total:',
