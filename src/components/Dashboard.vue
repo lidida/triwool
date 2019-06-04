@@ -115,7 +115,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div class="ibox">
             <div class="ibox-content" style="heigth: 300px;">
               <div>
@@ -158,7 +158,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
           <div class="ibox">
             <div class="ibox-title">
               <h5>Activity</h5>
@@ -215,11 +215,11 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <div class="ibox">
             <div class="ibox-title">
               <h5>Transactions worldwide</h5>
@@ -2241,7 +2241,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <!-- <div class="col-lg-6">
           <div class="ibox">
             <div class="ibox-title">
               <h5>Transactions worldwide</h5>
@@ -2265,7 +2265,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

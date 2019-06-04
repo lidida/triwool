@@ -160,7 +160,7 @@
 
     <hr>
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="ibox">
         <div class="ibox-title">
           <h5>Improvement difference</h5>
@@ -188,7 +188,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
