@@ -107,56 +107,56 @@
 
     <hr>
 
-    <div class="row m-t-lg">
-      <div v-if="pickBest">
-        <div class="col-lg-6">
-          <h5>Compare</h5>
-        </div>
-        <div class="col-lg-3">
-          <button
-            class="btn btn-block m-b-lg"
-            @click="selectedChart = 1; $emit('pick', 1)"
-            :class="{'btn-primary': selectedChart == 1, 'btn-default': selectedChart == 2}"
-          >This order</button>
-        </div>
-        <div class="col-lg-3">
-          <button
-            class="btn btn-block m-b-lg"
-            @click="selectedChart = 2; $emit('pick', 2)"
-            :class="{'btn-primary': selectedChart == 2, 'btn-default': selectedChart == 1}"
-          >Improved</button>
-        </div>
-      </div>
+      <div class="row m-t-lg">
+        <!-- <div v-if="pickBest">
+          <div class="col-lg-6">
+            <h5>Compare</h5>
+          </div>
+          <div class="col-lg-3">
+            <button
+              class="btn btn-block m-b-lg"
+              @click="selectedChart = 1; $emit('pick', 1)"
+              :class="{'btn-primary': selectedChart == 1, 'btn-default': selectedChart == 2}"
+            >This order</button>
+          </div>
+          <div class="col-lg-3">
+            <button
+              class="btn btn-block m-b-lg"
+              @click="selectedChart = 2; $emit('pick', 2)"
+              :class="{'btn-primary': selectedChart == 2, 'btn-default': selectedChart == 1}"
+            >Improved</button>
+          </div>
+        </div> -->
 
-      <div v-if="pickYear">
-        <div class="col-lg-6">
-          <h5>Compare</h5>
+        <div v-if="pickYear">
+          <div class="col-lg-6">
+            <h5>Compare</h5>
+          </div>
+          <div class="col-lg-3">
+            <button
+              class="btn btn-block m-b-lg"
+              @click="selectedChart = 3; $emit('pick-year', 3)"
+              :class="{'btn-primary': selectedChart == 3, 'btn-default': selectedChart == 4}"
+            >This year</button>
+          </div>
+          <div class="col-lg-3">
+            <button
+              class="btn btn-block m-b-lg"
+              @click="selectedChart = 4; $emit('pick-year', 4)"
+              :class="{'btn-primary': selectedChart == 4, 'btn-default': selectedChart == 3}"
+            >Last year</button>
+          </div>
         </div>
-        <div class="col-lg-3">
-          <button
-            class="btn btn-block m-b-lg"
-            @click="selectedChart = 3; $emit('pick-year', 3)"
-            :class="{'btn-primary': selectedChart == 3, 'btn-default': selectedChart == 4}"
-          >This year</button>
-        </div>
-        <div class="col-lg-3">
-          <button
-            class="btn btn-block m-b-lg"
-            @click="selectedChart = 4; $emit('pick-year', 4)"
-            :class="{'btn-primary': selectedChart == 4, 'btn-default': selectedChart == 3}"
-          >Last year</button>
-        </div>
-      </div>
 
-      <div class="col-lg-12" id="cluster_info">
-        <line-chart
-          :height="120"
-          ref="environmental"
-          :chartData="environmentalData"
-          :options="options"
-        ></line-chart>
+        <div class="col-lg-12" id="cluster_info">
+          <line-chart
+            :height="120"
+            ref="environmental"
+            :chartData="environmentalData"
+            :options="options"
+          ></line-chart>
+        </div>
       </div>
-    </div>
 
     <!--<hr>
 
