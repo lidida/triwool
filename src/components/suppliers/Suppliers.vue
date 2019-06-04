@@ -133,16 +133,16 @@
 
 <script>
 import Page from "@/components/core/Page";
-import Modal from "@/components/core/Modal";
-import TabPanel from "@/components/core/TabPanel";
-import { Bar } from "vue-chartjs";
+// import Modal from "@/components/core/Modal";
+// import TabPanel from "@/components/core/TabPanel";
+// import { Bar } from "vue-chartjs";
 
 export default {
   components: {
     Page,
-    Modal,
-    TabPanel,
-    Bar
+    // Modal,
+    // TabPanel,
+    // Bar
   },
 
   computed: {
