@@ -464,7 +464,7 @@
 										Environmental data
 									</div>
 									<div class="ibox-content">
-										<order-details-content
+										<order-details-content-other
 											:pick-best="true"
 											:environmental-data="environmentalData"
 											@pick="pick"/>
@@ -593,7 +593,7 @@ import Modal from '@/components/core/Modal'
 import TabPanel from '@/components/core/TabPanel'
 import LineChart from '@/directives/charts/LineChart'
 import ModalOld from '@/components/core/ModalOld'
-import OrderDetailsContent from '@/components/orders/OrderDetailsContent'
+import OrderDetailsContentOther from '@/components/orders/OrderDetailsContentOther'
 
 export default {
 	components: {
@@ -601,7 +601,7 @@ export default {
 		TabPanel,
 		LineChart,
 		ModalOld,
-		OrderDetailsContent
+		OrderDetailsContentOther
 	},
 
 	props: {
