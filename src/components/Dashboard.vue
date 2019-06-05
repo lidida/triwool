@@ -2338,9 +2338,12 @@ export default {
       let data = [];
       let visits = 10;
       for (let i = 1; i < 366; i++) {
-        visits += Math.round(
-          (Math.random() < 0.5 ? 1 : -1) * Math.random() * 10
-        );
+        // visits += Math.round(
+        //   (Math.random() < 0.5 ? 1 : -1) * Math.random() * 10
+        // );
+
+        visits = Math.floor(Math.random() * 5) + 20
+
         data.push({
           date: new Date(2018, 0, i),
           name: "name" + i,
@@ -2356,12 +2359,15 @@ export default {
       let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
       valueAxis.tooltip.disabled = true;
       valueAxis.renderer.minWidth = 35;
+      valueAxis.min = 15;
+      valueAxis.max = 30;
+      // valueAxis.formatLabel = "{value}%"; // Not working
 
       let series = chart.series.push(new am4charts.LineSeries());
       series.dataFields.dateX = "date";
       series.dataFields.valueY = "value";
 
-      series.tooltipText = "{valueY.value}";
+      series.tooltipText = "{valueY.value}%";
       chart.cursor = new am4charts.XYCursor();
 
       let scrollbarX = new am4charts.XYChartScrollbar();
