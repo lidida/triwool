@@ -350,7 +350,7 @@ export default {
             borderColor: "rgba(106, 121, 221, 0.90)",
             pointBorderColor: "#6A79DD",
             fill: true,
-            data: [2143, 1607, 621, 336]
+            data: [2000, 1607, 621, 336]
           },
           {
             label: "CO2",
