@@ -24,6 +24,7 @@
             style="text-align: center; margin-top: -6px; cursor: pointer;"
           >
             <h2>InTrace</h2>
+            <!-- LOGO -->
           </div>
           <div class="col-lg-4">
             <ul class="nav navbar-top-links navbar-right">
@@ -36,7 +37,7 @@
                   <li>
                     <a class="dropdown-item">
                       <div>
-                        <i class="fa fa-envelope fa-fw"></i> You have 16 messages
+                        <i class="fa fa-envelope fa-fw"></i> You have 8 messages
                         <span
                           class="float-right text-muted small"
                         >4 minutes ago</span>
