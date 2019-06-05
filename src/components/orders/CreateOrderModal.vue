@@ -850,7 +850,7 @@ export default {
 
 						pointBorderColor: '#6A79DD',
 						fill: true,
-						data: [100, 300, 50, 100]
+						data: [100, 300, 50, 20]
 					}
 				]
 			},
@@ -876,7 +876,7 @@ export default {
 
 						pointBorderColor: '#6A79DD',
 						fill: true,
-						data: [60, 200, 50, 10]
+						data: [60, 300, 50, 10]
 					}
 				]
 			},
@@ -885,7 +885,7 @@ export default {
 				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
-						label: 'Total:',
+						label: 'Water',
 						backgroundColor: 'rgba(209,196,233,0.7)',
 
       					borderColor: 'rgba(106, 121, 221, 0.90)',
@@ -895,7 +895,7 @@ export default {
 						data: [150, 200, 100, 300]
 					},
 					{
-						label: 'Total:',
+						label: 'CO2',
 						backgroundColor: 'rgba(126,87,194,0.9)',
 
       					borderColor: 'rgba(106, 121, 221, 0.90)',
@@ -937,7 +937,7 @@ export default {
 				labels: ['Raw material', 'Yarn', 'Fabric', 'Dying and Finishing', 'Manufacturing'],
 				datasets: [
 					{
-						label: 'Total de compras',
+						label: 'Water',
 						backgroundColor: 'rgba(210, 143, 99, 0.90)',
 
       					borderColor: 'rgba(210, 143, 99, 0.90)',
