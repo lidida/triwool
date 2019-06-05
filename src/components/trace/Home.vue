@@ -390,7 +390,8 @@
 				
 
 				<div class="row max-height" v-if="chartSlug == 'waste'">
-					<iframe src="http://167.99.211.8:82#wear" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+					<!-- <iframe src="http://167.99.211.8:82#wear" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe> -->
+					<iframe width="100%" height="100%" src="https://live.amcharts.com/lZGVm/embed/" frameborder="0"></iframe>
 				</div>
 
 				<div class="row max-height" v-if="chartSlug == 'wear'">
