@@ -279,11 +279,38 @@
                       </tr>
                       <tr>
                         <td class="text-center">5</td>
-                        <td>248701592 (Dresses)</td>
-                        <td class="text-center small">04 Apr 2019</td>
+                        <td>248701595 (Dresses)</td>
+                        <td class="text-center small">26 Apr 2019</td>
                         <td class="text-center">
-                          <span class="label label-warning">$25,000.00</span>
+                          <span class="label label-primary">$25,000.00</span>
                         </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">6</td>
+                        <td>248701594 (Jumpers)</td>
+                        <td class="text-center small">15 Apr 2019</td>
+                        <td class="text-center">
+                          <span class="label label-primary">$32,500.00</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">7</td>
+                        <td>248701593 (T-shirts)</td>
+                        <td class="text-center small">11 Apr 2019</td>
+                        <td class="text-center">
+                          <span class="label label-primary">$12,750.00</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">8</td>
+                        <td>248701592 (Shorts)</td>
+                        <td class="text-center small">10 Apr 2019</td>
+                        <td class="text-center">
+                          <span class="label label-warning">$8,300.00</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">More</td>
                       </tr>
                     </tbody>
                   </table>
