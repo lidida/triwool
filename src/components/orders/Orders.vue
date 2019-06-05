@@ -126,7 +126,7 @@
                       <a @click="goToOrder(10000045)">10000045</a>
                     </td>
                     <td>T-shirts</td>
-                    <td>Zara</td>
+                    <td>Bershka</td>
                     <td>20,000</td>
                     <td>12/05/2019</td>
                     <td>
@@ -161,7 +161,7 @@
                     </td>
                     <td>Dresses</td>
                     <td>Bershka</td>
-                    <td>5'000</td>
+                    <td>5,000</td>
                     <td>03/06/2019</td>
                     <td>
                       <strong>Pending</strong>
@@ -178,7 +178,7 @@
                     </td>
                     <td>Dresses</td>
                     <td>Benetton</td>
-                    <td>17'000</td>
+                    <td>17,000</td>
                     <td>01/06/2019</td>
                     <td>
                       <strong>Completed</strong>
@@ -195,7 +195,7 @@
                     </td>
                     <td>T-shirts</td>
                     <td>Zara</td>
-                    <td>25'000</td>
+                    <td>25,000</td>
                     <td>13/05/2019</td>
                     <td>
                       <strong>Completed</strong>
@@ -252,12 +252,12 @@ export default {
             {
               id: 12,
               description: "2018",
-              active: true
+              active: false
             },
             {
               id: 13,
               description: "2019",
-              active: false
+              active: true
             }
           ]
         },

@@ -33,8 +33,9 @@
 															<div class="form-group row">
 																<div class="col-sm-10">
 																	<select class="form-control m-b" name="account">
+																		<option>Benetton</option>
 																		<option>Bershka</option>
-																		<option>Benneton</option>
+																		
 																		<option>Pull&Bear</option>
 																		<option>Massimo Dutti</option>
 																		<option>Zara</option>
@@ -46,7 +47,7 @@
 												</div>
 												<div class="ibox">
 													<div class="ibox-title">
-														2. Suggested from recent selections
+														Or pick from recent selections
 													</div>
 													<div class="ibox-content">
 														<div class="row">
@@ -93,7 +94,7 @@
 										<div class="col-lg-9">
 											<div class="ibox" style="border-top: none;">
 												<div class="ibox-title" style="border-top: none;">
-													1. Type order number
+													2. Enter order number
 												</div>
 												<div class="ibox-content">
 													<div class="row">
@@ -103,12 +104,12 @@
 																	type="text"
 																	id="product_name"
 																	name="product_name"
-																	value="12121212"
+																	value="order #"
 																	class="form-control">
 															</div>
 														</div>
 														<div class="col-lg-4">
-															<button type="button" class="btn btn-w-m btn-primary">Scan</button>
+															<button type="button" class="btn btn-w-m btn-primary">Search</button>
 														</div>
 													</div>
 												</div>
@@ -208,14 +209,14 @@
 								<div v-if="selectedTab.slug == 'certificates'" class="form-horizontal m-l-md">
 									<div class="row">
 										<div class="col-lg-6">
-											<h5>Client: Benneton - 2018</h5>
-											<h5>Order # 10000045</h5>
+											<h5>Client: Bershka - 2019</h5>
+											<h5>Order #: 10000045</h5>
 										</div>
 									</div>
 									<div class="row">
 										<div class="ibox">
 											<div class="ibox-title" style="border-top: none;">
-												<h3>Select the metric</h3>
+												<h3>3. Select the metric</h3>
 											</div>
 											<div class="ibox-content">
 												<div class="col-lg-6">
@@ -260,14 +261,14 @@
 																</div>
 															</div>
 															<div class="col-lg-6"
-															@click="openChart('Enviroment', 'co2')">
+															@click="openChart('Environment', 'co2')">
 																<div class="text-center">
 																	<img
 																		alt="image"
 																		class=" m-t-xs img-fluid"
 																		height="80"
 																		:src="require('@/assets/water.png')">
-																	<div class="m-t-xs font-bold"><a>Enviroment</a></div>
+																	<div class="m-t-xs font-bold"><a>Environment</a></div>
 																</div>
 															</div>
 														</a>
@@ -276,7 +277,7 @@
 											<div class="col-lg-6">
 													<div class="contact-box" style="height: 296.6px;">
 														<div style="text-align:center"> 
-															<h3> POST -SALE </h3>
+															<h3> POST-SALE </h3>
 														</div>
 														<a class="row">
 															<div class="col-lg-6"
@@ -308,13 +309,13 @@
 										</div>
 									</div>
 
-									<div
+									<!-- <div
 										class="modal-footer">
 										<button
 											type="button"
 											class="btn btn-w-m btn-danger"
 											v-text="'Previous'"/>
-									</div>
+									</div> -->
 								</div>
 							</tab-panel>
 						</div>
@@ -383,14 +384,16 @@
 				</div>
 
 				<div class="row max-height" v-if="chartSlug == 'material'">
-					<iframe src="http://167.99.211.8:82#material" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+				<iframe src="http://167.99.211.8:82#material" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe> -->
+				
 				</div>
+				
 
-				<div class="row max-height" v-if="chartSlug == 'wear'">
+				<div class="row max-height" v-if="chartSlug == 'waste'">
 					<iframe src="http://167.99.211.8:82#wear" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
 				</div>
 
-				<div class="row max-height" v-if="chartSlug == 'waste'">
+				<div class="row max-height" v-if="chartSlug == 'wear'">
 					<iframe src="http://167.99.211.8:82#waste" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
 				</div>
 
@@ -509,12 +512,12 @@ export default {
 						{
 							id: 12,
 							description: '2018',
-							active: true
+							active: false
 						},
 						{
 							id: 13,
 							description: '2019',
-							active: false
+							active: true
 						}
 					]
 				}
@@ -523,32 +526,32 @@ export default {
 			orders: [
 				{
 					id: 10000045,
-					description: 'T-shirt',
-					date: '1/3/2019',
+					description: 'T-shirts',
+					date: '12/05/2019',
 					checked: false
 				},
 				{
 					id: 10000044,
-					description: 'Skirt',
-					date: '27/2/2019',
+					description: 'Skirts',
+					date: '25/05/2019',
 					checked: false
 				},
 				{
 					id: 10000043,
-					description: 'Dress',
-					date: '26/2/2019',
+					description: 'Dresses',
+					date: '03/06/2019',
 					checked: false
 				},
 				{
 					id: 10000042,
-					description: 'Dress',
-					date: '24/2/2019',
+					description: 'Dresses',
+					date: '01/06/2019',
 					checked: false
 				},
 				{
 					id: 10000041,
-					description: 'T-shirt',
-					date: '20/2/2019',
+					description: 'T-shirts',
+					date: '13/05/2019',
 					checked: false
 				}
 			],

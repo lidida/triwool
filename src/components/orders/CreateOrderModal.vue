@@ -38,7 +38,7 @@
 											<div class="form-group  row">
 												<span class="col-sm-4 col-form-label m-t-sm">Client</span>
 												<div class="col-sm-8">
-													<input type="text" value="Zara" class="form-control">
+													<input type="text" value="Bershka" class="form-control">
 												</div>
 											</div>
 											<div class="form-group  row">
@@ -988,7 +988,7 @@ export default {
 					id: 2,
 					src: 'img2',
 					title: 'Brand',
-					subTitle: 'Inditex'
+					subTitle: 'Bershka'
 				},
 				{
 					id: 3,
@@ -1018,7 +1018,7 @@ export default {
 					id: 7,
 					src: 'img7',
 					title: 'Fiber composition',
-					subTitle: 'Cotton 30% Recycled polyester – 70%'
+					subTitle: 'Cotton - 30%, Recycled polyester – 70%'
 				}
 			],
 
