@@ -110,7 +110,7 @@
 
 		<div class="footer fixed">
 			<div>
-				<strong>Copyright</strong> Triwool © 2019
+				Copyright Intrace © 2019
 			</div>
 		</div>
 
