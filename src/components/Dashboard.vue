@@ -319,9 +319,9 @@
                 <div class="col-lg-6">
                   <div id="world-map" style="height: 300px;">
                     <div class="jvectormap-container" style="background-color: transparent;">
-                      <svg width="376.38751220703125" height="300">
+                      <svg width="100%" height="300">
                         <defs></defs>
-                        <g transform="scale(0.4182083468967014) translate(0, 138.31974322756474)">
+                        <g transform="scale(0.66) translate(0, 0)">
                           <path
                             d="M652.71,228.85l-0.04,1.38l-0.46,-0.21l-0.42,0.3l0.05,0.65l-0.17,-1.37l-0.48,-1.26l-1.08,-1.6l-0.23,-0.13l-2.31,-0.11l-0.31,0.36l0.21,0.98l-0.6,1.11l-0.8,-0.4l-0.37,0.09l-0.23,0.3l-0.54,-0.21l-0.78,-0.19l-0.38,-2.04l-0.83,-1.89l0.4,-1.5l-0.16,-0.35l-1.24,-0.57l0.36,-0.62l1.5,-0.95l0.02,-0.49l-1.62,-1.26l0.64,-1.31l1.7,1.0l0.12,0.04l0.96,0.11l0.19,1.62l0.25,0.26l2.38,0.37l2.32,-0.04l1.06,0.33l-0.92,1.79l-0.97,0.13l-0.23,0.16l-0.77,1.51l0.05,0.35l1.37,1.37l0.5,-0.14l0.35,-1.46l0.24,-0.0l1.24,3.92Z"
                             data-code="BD"
@@ -2274,8 +2274,8 @@
                         <g></g>
                         <g></g>
                       </svg>
-                      <div class="jvectormap-zoomin">+</div>
-                      <div class="jvectormap-zoomout">−</div>
+                      <!-- <div class="jvectormap-zoomin">+</div> -->
+                      <!-- <div class="jvectormap-zoomout">−</div> -->
                       <div class="jvectormap-legend-cnt jvectormap-legend-cnt-h"></div>
                       <div class="jvectormap-legend-cnt jvectormap-legend-cnt-v"></div>
                     </div>
