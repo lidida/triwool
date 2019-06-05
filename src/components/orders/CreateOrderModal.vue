@@ -833,7 +833,7 @@ export default {
 				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
-						label: 'Total:',
+						label: 'Water',
 						backgroundColor: 'rgba(209,196,233,0.7)',
 
       					borderColor: 'rgba(106, 121, 221, 0.90)',
@@ -843,7 +843,7 @@ export default {
 						data: [150, 200, 100, 300]
 					},
 					{
-						label: 'Total:',
+						label: 'CO2',
 						backgroundColor: 'rgba(126,87,194,0.9)',
 
       					borderColor: 'rgba(106, 121, 221, 0.90)',
@@ -859,7 +859,7 @@ export default {
 				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
-						label: 'Total:',
+						label: 'Water',
 						backgroundColor: 'rgba(209,196,233,0.7)',
 
       					borderColor: 'rgba(106, 121, 221, 0.90)',
@@ -869,7 +869,7 @@ export default {
 						data: [100, 100, 50, 100]
 					},
 					{
-						label: 'Total:',
+						label: 'CO2',
 						backgroundColor: 'rgba(126,87,194,0.9)',
 
       					borderColor: 'rgba(106, 121, 221, 0.90)',
