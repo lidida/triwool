@@ -82,7 +82,7 @@
 								<li>
 									<a class="dropdown-item">
 										<div>
-											<i class="fa fa-envelope fa-fw"></i> You have 16 messages
+											<i class="fa fa-envelope fa-fw"></i> You have 8 messages
 											<span class="float-right text-muted small">4 minutes ago</span>
 										</div>
 									</a>
