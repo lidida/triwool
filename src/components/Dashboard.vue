@@ -38,9 +38,7 @@
                     <a class="dropdown-item">
                       <div>
                         <i class="fa fa-envelope fa-fw"></i> You have 8 messages
-                        <span
-                          class="float-right text-muted small"
-                        >4 minutes ago</span>
+                        <span class="float-right text-muted small">4 minutes ago</span>
                       </div>
                     </a>
                   </li>
@@ -131,15 +129,15 @@
                   <div class="col-md-12">
                     <ul class="stat-list m-t-lg">
                       <li>
-                        <h2 class="no-margins">2,346</h2>
-                        <small>Total orders in period</small>
+                        <h2 class="no-margins">2,036</h2>
+                        <small>Orders in last month</small>
                         <div class="progress progress-mini">
-                          <div class="progress-bar" style="width: 48%;"></div>
+                          <div class="progress-bar" style="width: 24%;"></div>
                         </div>
                       </li>
                       <li>
-                        <h2 class="no-margins">4,422</h2>
-                        <small>Orders in last month</small>
+                        <h2 class="no-margins">5,127</h2>
+                        <small>Total orders in period</small>
                         <div class="progress progress-mini">
                           <div class="progress-bar" style="width: 60%;"></div>
                         </div>
@@ -2342,10 +2340,10 @@ export default {
         //   (Math.random() < 0.5 ? 1 : -1) * Math.random() * 10
         // );
 
-        visits = Math.floor(Math.random() * 5) + 20
+        visits = Math.floor(Math.random() * 5) + 20;
 
         data.push({
-          date: new Date(2018, 0, i),
+          date: new Date(2019, 0, i),
           name: "name" + i,
           value: visits
         });
