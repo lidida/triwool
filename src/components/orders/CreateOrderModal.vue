@@ -516,7 +516,7 @@
 			</div>
 		</template>
 
-		<div			
+		<div
 			slot="footer">
 			<button
 				type="button"
@@ -840,7 +840,7 @@ export default {
 
 						pointBorderColor: '#6A79DD',
 						fill: true,
-						data: [150, 200, 100, 300]
+						data: [450000, 337500, 130500, 70500]
 					},
 					{
 						label: 'CO2',
@@ -850,7 +850,7 @@ export default {
 
 						pointBorderColor: '#6A79DD',
 						fill: true,
-						data: [100, 300, 50, 20]
+						data: [2250, 480, 300, 450]
 					}
 				]
 			},
@@ -866,7 +866,7 @@ export default {
 
 						pointBorderColor: '#6A79DD',
 						fill: true,
-						data: [100, 100, 50, 100]
+						data: [370000, 300000, 128000, 60000]
 					},
 					{
 						label: 'CO2',
@@ -876,7 +876,7 @@ export default {
 
 						pointBorderColor: '#6A79DD',
 						fill: true,
-						data: [60, 300, 50, 10]
+						data: [2100, 400, 270, 350]
 					}
 				]
 			},
@@ -885,29 +885,33 @@ export default {
 				labels: ['Raw material', 'Yarn', 'Fabric', 'Garment'],
 				datasets: [
 					{
-						label: 'Water',
+						label: "Water",
+						yAxisID: "A",
+						yAxesGroup: "A",
 						backgroundColor: 'rgba(209,196,233,0.7)',
 
       					borderColor: 'rgba(106, 121, 221, 0.90)',
 
 						pointBorderColor: '#6A79DD',
 						fill: true,
-						data: [150, 200, 100, 300]
+						data: [450000, 337500, 130500, 70500]
 					},
 					{
-						label: 'CO2',
+						label: "CO2",
+						yAxesGroup: "B",
+						yAxisID: "B",
 						backgroundColor: 'rgba(126,87,194,0.9)',
 
       					borderColor: 'rgba(106, 121, 221, 0.90)',
 
 						pointBorderColor: '#6A79DD',
 						fill: true,
-						data: [100, 300, 50, 100]
+						data: [2250, 480, 300, 450]
 					}
 				]
 			},
 
-			options: {
+			/*options: {
 				legend: {
 					display: false
 				},
@@ -931,6 +935,53 @@ export default {
 					easing: 'linear'
 				},
 				responsive: true
+			},*/
+
+			options: {
+				legend: {
+					display: true
+				},
+				scales: {
+					yAxes: [
+						{
+							id: "A",
+							scaleLabel: {
+								display: true,
+								labelString: "Water (Litres)"
+							},
+							position: "left",
+							gridLines: {
+								color: "rgba(106, 121, 221, 0.10)"
+							}
+						},
+						{
+							id: "B",
+							scaleLabel: {
+								display: true,
+								labelString: "CO2 (Kg CO2-e)"
+							},
+							position: "right",
+							gridLines: {
+								color: "rgba(210, 143, 99, 0.10)"
+							},
+							ticks:
+								this.selectedChart == 1 || this.selectedChart == 2
+								? { max: 4000, min: 0 }
+								: { max: 15, min: 0 }
+						}
+					],
+					xAxes: [
+						{
+							gridLines: {
+								display: false
+							}
+						}
+					]
+				},
+					animation: {
+					easing: "linear"
+					},
+					responsive: true
 			},
 
 			environmentalData2: {

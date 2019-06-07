@@ -23,8 +23,14 @@
             class="col-lg-4"
             style="text-align: center; margin-top: -6px; cursor: pointer;"
           >
-            <h2>InTrace</h2>
+            <!--<h2>InTrace2</h2>-->
             <!-- LOGO -->
+            <img
+							alt="image"
+							class="img-fluid"
+							style="margin-top: 15px;"
+							height="30"
+							:src="require('@/assets/logo2.png')">
           </div>
           <div class="col-lg-4">
             <ul class="nav navbar-top-links navbar-right">
