@@ -29,7 +29,7 @@
                         <button class="btn btn-default btn-circle btn-outline" type="button">
                           <i class="fa fa-user"></i>
                         </button>
-                        <span>ATB</span>
+                        <span>Fabric</span>
                       </div>
                     </div>
 
@@ -38,7 +38,7 @@
                         <button class="btn btn-default btn-circle btn-outline" type="button">
                           <i class="fa fa-user"></i>
                         </button>
-                        <span>Folte</span>
+                        <span>Texworld</span>
                       </div>
                     </div>
                   </div>
@@ -66,7 +66,7 @@
                       <dt>Brand:</dt>
                     </div>
                     <div class="col-lg-7">
-                      <dd>Bershka</dd>
+                      <dd>TextileCo</dd>
                     </div>
                   </div>
                   <div class="row mb-0 m-t-sm">
@@ -103,7 +103,7 @@
                   </div>
                   <div class="row mb-0 m-t-sm">
                     <div class="col-lg-5">
-                      <dt>Fiber Composition:</dt>
+                      <dt>Fiber:</dt>
                     </div>
                     <div class="col-lg-7">
                       <dd>Cotton 100%</dd>
@@ -191,7 +191,7 @@
       @close="closeNFCTag"
     >
       <template>
-        <h3>NFS Tag: order # {{orderId}}</h3>
+        <h3>NFC Tag: order # {{orderId}}</h3>
 
         <small class="text-muted">The tag will include following information:</small>
         <br>
@@ -417,7 +417,7 @@ export default {
 
   computed: {
     showNFCTagTitle() {
-      return "NFS Tag: order #" + this.orderId;
+      return "NFC Tag: order #" + this.orderId;
     }
   },
 
