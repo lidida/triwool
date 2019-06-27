@@ -256,7 +256,7 @@
 																		alt="image"
 																		class="m-t-xs img-fluid"
 																		height="80"
-																		:src="require('@/assets/recyclability.png')">
+																		:src="require('@/assets/img/materials.png')">
 																	<div class="m-t-xs font-bold"><a>Material</a></div>
 																</div>
 															</div>
@@ -287,7 +287,7 @@
 																		alt="image"
 																		class=" m-t-xs img-fluid"
 																		height="80"
-																		:src="require('@/assets/recyclability.png')">
+																		:src="require('@/assets/img/wear.png')">
 																	<div class="m-t-xs font-bold"><a>Wear</a></div>
 																</div>
 															</div>
@@ -298,7 +298,7 @@
 																		alt="image"
 																		class=" m-t-xs img-fluid"
 																		height="80"
-																		:src="require('@/assets/recyclability.png')">
+																		:src="require('@/assets/img/waste.png')">
 																	<div class="m-t-xs font-bold"><a>Waste</a></div>
 																</div>
 															</div>
