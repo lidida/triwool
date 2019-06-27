@@ -209,7 +209,7 @@
 								<div v-if="selectedTab.slug == 'certificates'" class="form-horizontal m-l-md">
 									<div class="row">
 										<div class="col-lg-6">
-											<h5>Client: Bershka - 2019</h5>
+											<h5>Client: TextileCo - 2019</h5>
 											<h5>Order #: 10000045</h5>
 										</div>
 									</div>

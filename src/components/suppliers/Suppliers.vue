@@ -89,7 +89,7 @@
                       <i class="fa fa-sort m-l-sm"></i>
                     </th>
                     <th>
-                      Stage
+                      Tier
                       <i class="fa fa-sort m-l-sm"></i>
                     </th>
                     <th>
@@ -97,7 +97,7 @@
                       <i class="fa fa-sort m-l-sm"></i>
                     </th>
                     <th>
-                      Amount of Orders
+                      Order Quantity
                       <i class="fa fa-sort m-l-sm"></i>
                     </th>
                     <th>
@@ -156,37 +156,32 @@ export default {
       filters: [
         {
           id: 1,
-          description: "Process",
+          description: "Spinning",
           visible: true,
           subFilters: [
             {
               id: 11,
-              description: "Garment",
+              description: "Weaving",
               active: false
             },
             {
               id: 12,
-              description: "Ironing",
+              description: "Knitting",
               active: true
             },
             {
               id: 13,
-              description: "Labeling",
-              active: false
-            },
-            {
-              id: 14,
               description: "Dyeing",
               active: false
             },
             {
-              id: 15,
-              description: "Stitching",
+              id: 14,
+              description: "Printing",
               active: false
             },
             {
-              id: 16,
-              description: "Cutting",
+              id: 15,
+              description: "Finishing",
               active: false
             }
           ]
@@ -259,48 +254,48 @@ export default {
       suppliers: [
         {
           id: 1001,
-          name: "ATB",
+          name: "Spintex",
           stage: "Tier 3",
-          ranking: 8,
-          amountOfOrders: 20,
+          ranking: 4,
+          amountOfOrders: 56,
           compliance: "100%",
-          contact: "info@atb.com"
+          contact: "info@spintex.com"
         },
         {
           id: 1002,
-          name: "Tearfil",
+          name: "Texworld",
           stage: "Tier 3",
-          ranking: 9,
-          amountOfOrders: 100,
-          compliance: "100%",
-          contact: "info@tearfil.com"
+          ranking: 2,
+          amountOfOrders: 102,
+          compliance: "90%",
+          contact: "info@texworld.com"
         },
         {
           id: 1003,
-          name: "Cotton King",
+          name: "Fabrix",
           stage: "Tier 1",
-          ranking: 7,
-          amountOfOrders: 20,
-          compliance: "80%",
-          contact: "info@cottonking.com"
+          ranking: 1,
+          amountOfOrders: 30,
+          compliance: "75%",
+          contact: "info@fabrix.com"
         },
         {
           id: 1004,
-          name: "Folte",
+          name: "Texcount",
           stage: "Tier 4",
-          ranking: 10,
-          amountOfOrders: 30,
-          compliance: "70%",
-          contact: "folte@folte.com"
+          ranking: 5,
+          amountOfOrders: 27,
+          compliance: "80%",
+          contact: "info@texcount.com"
         },
         {
           id: 1005,
-          name: "Texleed",
-          stage: "Tier 4",
-          ranking: 6,
-          amountOfOrders: 100,
-          compliance: "70%",
-          contact: "texleed@texleed.com"
+          name: "Threadit",
+          stage: "Tier 2",
+          ranking: 3,
+          amountOfOrders: 158,
+          compliance: "65%",
+          contact: "info@threadit.com"
         }
       ],
 
